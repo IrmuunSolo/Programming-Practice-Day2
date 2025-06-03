@@ -2,13 +2,12 @@ package com.example;
 
 import java.time.Year;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
     private int seatNum;
 
-    public Car(String creator, String model, int year, float ownWeight, int seatNum){
-        super(creator, model, year, ownWeight);
-
+    public Car(String creator, String model, int year, float ownWeight, int seatNum, float fuelCapacity){
+        super(creator, model, year, ownWeight, fuelCapacity);
         this.seatNum = seatNum;
     }
 
@@ -30,5 +29,4 @@ public class Car extends Vehicle{
     public int getAge(){
         return Year.now().getValue() - getYear();
     }
-    
 }

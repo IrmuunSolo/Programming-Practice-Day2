@@ -88,3 +88,29 @@ Constructor нь төрөл бүрийн паркын зайны тоог пар
     [null, true, true, false, false]
 #### LeetCode-ийн амжилтын screenshot
 ![car Screenshot](/images/LeetCode.png)
+
+## Бодлого 3. Beecrowd: Employee
+
+ABC компани ажилчдынхаа цалинг дараах хүснэгтэд заасны дагуу нэмэгдүүлэхээр шийдсэн:
+
+| Цалингийн хүрээ   | Өсөлтийн хувь       | 
+| :-----------      | :---------- | 
+| 0 - 400.00        | 15%         |
+| 400.01 - 800.00   | 12%         |
+| 800.01 - 1200.00  | 10%         |
+| 1200.01 - 2000.00 | 7%         |
+| 2000.00-аас дээш  | 4%         |
+
+#### Оролт: 
+    Програм нь аравтын 2 оронтой нэг float тоо (цалин) авна.
+
+#### Гаралт:
+
+Novo salario:  means "New Salary"\
+Reajuste ganho: means "Money earned"\
+Em percentual: means "In percentage"\
+
+![beecrowd output](/images/beecrowdOutput.png)
+
+#### beecrowd-ийн амжилтын screenshot
+![beecrowd output](/images/beecrowd.png)

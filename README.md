@@ -40,6 +40,12 @@ Vehicle классыг Car, Truck дэд классуудтай бичсэн б�
 
 - getAge(): Одоогийн он - үйлдвэрлэсэн он
 
+Run command:
+
+```bash
+  java -cp target/car-1.0-SNAPSHOT.jar com.example.Main
+```
+
 Main классын гаралт:
 
 ![car Screenshot](/images/car_output.png)
